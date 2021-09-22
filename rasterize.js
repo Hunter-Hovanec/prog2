@@ -171,6 +171,8 @@ function renderTriangles() {
 
 function main() {
   
+  console.log("test");
+  
   setupWebGL(); // set up the webGL environment
   loadTriangles(); // load in the triangles from tri file
   setupShaders(); // setup the webGL shaders
